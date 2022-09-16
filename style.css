@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.google{
+    height: 100vh;
+}
+
+
+
+.google-header{
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    padding: 15px;
+    font-size: 13px;
+}
+
+.google-footer{
+    background-color: #f2f2f2;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+.footer-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    
+}
+
+.footer-down-center:hover{
+    text-decoration: underline !important;
+}
+
+.footer-down-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 54px;
+}
+
+.google-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 60px;
+}
+
+form{
+    width: 584px;
+    margin: 25px;
+}
+
+input{
+    width: 100%;
+    padding: 0.8em 3em;
+    border-radius:30px ;
+    border: 1px solid ;
+    opacity: 0.1;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+input:hover{
+    border-color: #787F7A;
+}
+
+.fa-search{
+    position: absolute;
+    top: 13px;
+    left:0 ;
+    color: #787F7A;
+    transform: translate(60%, 10%);
+}
+
+.fa-microphone{
+    position: absolute;
+    top: 13px;
+    right: 28px;
+    color: #787F7A;
+    transform: translate(100%, 10%);
+}
+
+.fa-keyboard{
+    position: absolute;
+    top: 13px;
+    right: 48px;
+    color: #787F7A;
+}
+
+.google-body{
+    position: relative;
+}
+
+.buttons{
+    position:absolute;
+    top: 60px;
+    right: 80px;
+    padding: 15px;
+    display: flex;
+}
+
+#apps{
+    height: 25px;
+}
